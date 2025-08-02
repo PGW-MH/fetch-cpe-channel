@@ -39,3 +39,8 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+      - name: Purge jsDelivr cache for latest.json
+        uses: gacts/purge-jsdelivr-cache@v1.1.2
+        with:
+          url: https://cdn.jsdelivr.net/gh/${{ github.repository }}@latest/latest.json
