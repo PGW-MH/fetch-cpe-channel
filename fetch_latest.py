@@ -2,7 +2,7 @@ import json
 import feedparser
 
 
-FEED_URL = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCbELDDHGqMbjsA_4Kyd7vMw'
+FEED_URL = 'https://www.youtube.com/feeds/videos.xml?channel_id=UCm0zMBHYwYGzsYnrqE0kk1g'
 feed = feedparser.parse(FEED_URL)
 
 if not feed.entries:
