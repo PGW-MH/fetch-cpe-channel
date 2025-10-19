@@ -5,6 +5,7 @@ from datetime import datetime
 CHANNELS = {
     'ZH': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCbELDDHGqMbjsA_4Kyd7vMw',
     'EN': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCm0zMBHYwYGzsYnrqE0kk1g',
+    'CPE': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCA9SMHQl_V3OxptZeSVXMPg',
     'KID': 'https://www.youtube.com/feeds/videos.xml?channel_id=UCQ7Z5kbCT5uv4IyYHVwA3sg'
 }
 
